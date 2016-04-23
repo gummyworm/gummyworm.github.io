@@ -7,4 +7,4 @@ categories: Vic20
 
 They say art is knowing which mistakes to keep. 
 
-![Glitchy]({{ https://github.com/gummyworm/gummyworm.github.io/ }}/images/glitchy.jpg)
+![Glitchy]({{ https://github.com/gummyworm/gummyworm.github.io }}/images/glitchy.jpg)
