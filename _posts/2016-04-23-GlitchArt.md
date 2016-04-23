@@ -7,4 +7,4 @@ categories: Vic20
 
 They say art is knowing which mistakes to keep. 
 
-![Glitchy]({images/glitchy.jpg)
+![Glitchy](images/glitchy.jpg)
