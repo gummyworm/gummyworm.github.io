@@ -29,6 +29,7 @@ raster line), but I will probably need a table of some size- maybe 1 byte per
 The render loop will then be modified thusly:
 
 Before it was a simple load/store copy:
+
 ```
 .blit
   lda (.src),y
@@ -39,6 +40,7 @@ Before it was a simple load/store copy:
 
 Since we're now dealing with sprites across columns, that already complicates
 it:
+
 ```
 .blit_r
   lda #$00
@@ -58,6 +60,7 @@ it:
   dey
   bpl .blit
 ```
+
 We have two destination bytes: 1 for the left column of the shifted sprite data
 and 1 for the right column.  No big deal- I would've more than likely added
 this at some point anyway (if I wanted ANY x-motion).
