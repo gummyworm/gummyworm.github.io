@@ -72,6 +72,7 @@ That will come later..
 The other modification is to our calculation of the destination.
 
 Before:
+
 ```
   ldy #SPRITE_XOFFSET
   lda (.sprite),y
@@ -89,6 +90,7 @@ Before:
 ```
 
 And with our table-offset modification:
+
 ```
   ldy #SPRITE_XOFFSET
   lda (.sprite),y
